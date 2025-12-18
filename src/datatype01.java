@@ -6,7 +6,7 @@ public class datatype01
         int age=12;
         double d= 12.9;
         float f=12.4f;
-        long mobile =1234566789l;
+        long mobile =1234566789L;
 
         System.out.println(email);
         System.out.println(age);
