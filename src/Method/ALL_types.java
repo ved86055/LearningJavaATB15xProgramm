@@ -22,7 +22,7 @@ public class ALL_types
         al.m4("ved");                     // 3rd parameter & no return type
 
 
-       int addition= al.sum(5,10);
+       int addition= al.sum(5,10);        // 4th parameter & return value
         System.out.println(addition);
 
 
