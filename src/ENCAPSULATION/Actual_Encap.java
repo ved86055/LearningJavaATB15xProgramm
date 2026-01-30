@@ -30,9 +30,15 @@ public class Actual_Encap
 
     }
 
-    void setBalance(int balance)
+    void setBalance(int balance,boolean iscashier)
     {
-        this.balance=balance;
+        if (iscashier)
+        {
+            this.balance = balance;
+        }
+        else {
+            System.out.println("User is not cashier cant set acc balance");
+        }
     }
 
     int  getBalance()

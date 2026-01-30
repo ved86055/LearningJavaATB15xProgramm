@@ -15,7 +15,10 @@ public class Actual_Encap_main
         System.out.println(name);
 
 
-        ae.setBalance(55000);
+        ae.setBalance(55000,true);
+        System.out.println(ae.getBalance());
+
+        ae.setBalance(2366,false);
         System.out.println(ae.getBalance());
 
 
