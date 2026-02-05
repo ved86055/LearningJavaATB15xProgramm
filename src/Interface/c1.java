@@ -1,6 +1,6 @@
 package Interface;
 
-public class c1 implements i1,i2
+public class c1 extends c2 implements i1,i2
 {
 
    public void m1()
@@ -17,6 +17,7 @@ public class c1 implements i1,i2
         c1 c=new c1();
         c.m1();
         c.m2();
+        c.m3();
 
     }
 }
