@@ -14,5 +14,6 @@ public class Array_Declaration2ndmethod
         System.out.println(ar[1]);
         System.out.println(ar[2]);
 
+
     }
 }
