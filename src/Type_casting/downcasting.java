@@ -25,6 +25,9 @@ class test
               downcasting dc =new bird();
 
               bird b=(bird)dc;
+
+
+
               b.soundbird();
         System.out.println(b.namebird);
 
