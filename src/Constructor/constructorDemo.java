@@ -28,7 +28,7 @@ public class constructorDemo
     {
 
     //    constructorDemo cd=new constructorDemo();    // invoke default constructor
-        constructorDemo cd =new constructorDemo(11,12);     // invoke parameterised c
+        constructorDemo cd =new constructorDemo();    // invoke parameterised c
         cd.sum();
     }
 }
