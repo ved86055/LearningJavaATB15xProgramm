@@ -14,19 +14,6 @@ public class Array_MaximiumNumer
             }
         }
         System.out.println(max);
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 
 }

@@ -28,6 +28,9 @@ class dog extends upcasting
     {
         upcasting up =new dog();
         up.animal();
+
+        dog  up1 =new dog();
+        up1.bird();
         System.out.println(up.nameanimal);
 
 

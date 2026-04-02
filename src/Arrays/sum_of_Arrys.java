@@ -14,8 +14,5 @@ public class sum_of_Arrys
 
         System.out.println(sum);
 
-
-
-
     }
 }

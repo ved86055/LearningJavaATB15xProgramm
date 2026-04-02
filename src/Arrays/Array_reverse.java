@@ -34,11 +34,5 @@ public class Array_reverse
         {
             System.out.println(in[i]);
         }
-
-
-
     }
-
-
-
 }

@@ -8,11 +8,15 @@ public class Array_secondHighest_num {
 
         for (int num : marks) {
 
-            if (num > highest) {
+            if (num > highest)
+            {
 
                 secondHighest = highest;
                 highest = num;
-            } else if (num > secondHighest && num != highest) {
+            }
+            else if
+            (num > secondHighest && num != highest)
+            {
                 secondHighest = num;
 
             }

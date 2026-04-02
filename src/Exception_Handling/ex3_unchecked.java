@@ -37,8 +37,6 @@ public class ex3_unchecked
         System.out.println("exited thr progremme");
 
 
-
-
     }
 
 

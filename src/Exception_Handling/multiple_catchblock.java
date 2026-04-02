@@ -4,9 +4,6 @@ public class multiple_catchblock
 {
     public static void main(String[] args)
     {
-
-
-
         String s=null;
 
         try {

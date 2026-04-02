@@ -16,15 +16,5 @@ public class checked_exception
 
         System.out.println("oved prakash shinde");
 
-
-
-
-
-
-
-
-
-
-
     }
 }

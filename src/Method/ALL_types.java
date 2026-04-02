@@ -24,10 +24,6 @@ public class ALL_types
 
        int addition= al.sum(5,10);        // 4th parameter & return value
         System.out.println(addition);
-
-
-
-
     }
 
 
@@ -75,10 +71,5 @@ public class ALL_types
 
         return(a+b);
     }
-
-
-
-
-
 
 }

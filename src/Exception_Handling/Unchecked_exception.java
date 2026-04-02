@@ -26,14 +26,5 @@ public class Unchecked_exception
         {
             System.out.println(e.getMessage());
         }
-
-
-
-
-
-
-
-
-
     }
 }
