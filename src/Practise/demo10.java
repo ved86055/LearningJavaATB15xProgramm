@@ -1,20 +1,45 @@
 package Practise;
 
+import java.util.ArrayList;
+
 public class demo10
 {
     public static void main(String[] args)
     {
-        demo9 d9=new demo9();
+       String name="vedishereaswellasheisaswellasthereeverywhere";
 
 
-        d9.setAccno(453621);
-        System.out.println(d9.getAccno());
+       ArrayList<Character> ar=new ArrayList();
+
+       for (int i=0;i<name.length();i++)
+       {
+           int k=0;
+           k++;
+           if (!ar.contains(name.charAt(i)))
+           {
+               ar.add(name.charAt(i));
 
 
-        d9.setName("ved shinde");
-        System.out.println( d9.getName());
+               for (int j=i+1;j<name.length();j++)
+               {
 
-        d9.setBalance(50000);
-        System.out.println(d9.getBalance());
+                   if (name.charAt(i)==name.charAt(j))
+                   {
+                       k++;
+                   }
+               }
+               if (k>1)
+               {
+                   System.out.println("Duplicate char which  repeat are "+" "+ name.charAt(i));
+               }
+
+
+           }
+
+
+       }
+
+
+
     }
 }

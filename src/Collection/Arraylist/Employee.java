@@ -12,8 +12,5 @@ public class Employee
         this.age=age;
         this.dept=dept;
 
-
-
-
     }
 }
