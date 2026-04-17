@@ -19,10 +19,7 @@ public class Factorial_UserInput
                 fact=fact*j;
             }
             System.out.println("Factorial of "+ num + "  is " + fact );
-
-
         }
-
         else {
             System.out.println("please enter integer value");
         }
